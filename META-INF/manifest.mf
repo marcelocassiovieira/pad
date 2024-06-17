@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Main-Class: com.pad.bet.pad.PadApplication
+Class-Path: kotlin-stdlib-1.5.32-modular.jar toolbox-17.0.57.jar fxgl-en
+ tity-17.1.jar lifecycle-4.0.13.jar javafx-base-20.0.2-win.jar jackson-d
+ atabind-2.12.1.jar javafx-media-17.0.2-win.jar javafx-fxml-17.0.2.jar v
+ alidatorfx-0.3.1.jar javafx-base-20.0.2.jar jackson-core-2.12.1.jar boo
+ tstrapfx-core-0.4.0.jar controlsfx-11.1.1.jar ikonli-core-12.3.1.jar ja
+ vafx-swing-21-ea+31.jar storage-4.0.13.jar medusa-16.0.1.jar toolboxfx-
+ 17.0.47.jar formsfx-core-11.5.0.jar fxgl-gameplay-17.1.jar heatmap-17.0
+ .27.jar javafx-media-17.0.2.jar ikonli-javafx-12.3.1.jar jackson-annota
+ tions-2.12.1.jar annotations-13.0.jar kotlin-stdlib-common-1.5.32.jar c
+ ountries-17.0.37.jar fxgl-17.1.jar javafx-swing-21-ea+31-win.jar javafx
+ -controls-17.0.2.jar fxgl-scene-17.1.jar javafx-graphics-17.0.2-win.jar
+  javafx-fxml-17.0.2-win.jar javafx-web-17.0.2-win.jar javafx-web-17.0.2
+ .jar util-4.0.13.jar fxgl-core-17.1.jar audio-4.0.13.jar tilesfx-17.1.9
+ .jar javafx-controls-17.0.2-win.jar fxgl-io-17.1.jar javafx-graphics-17
+ .0.2.jar
+
