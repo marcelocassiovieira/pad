@@ -1,10 +1,7 @@
 package com.pad.bet.pad;
 
 import com.pad.bet.pad.domain.Cliente;
-import com.pad.bet.pad.service.MessageRepositoryService;
-import com.pad.bet.pad.service.MessageService;
 import com.pad.bet.pad.utils.CreateText;
-import com.pad.bet.pad.utils.MessageType;
 import com.pad.bet.pad.utils.Text;
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -26,8 +23,6 @@ public class PadApplication extends Application {
     GridPane grid = new GridPane();
     Cliente cliente;
     String usuario;
-
-    MessageService messageService = new MessageService();
 
     @Override
     public void start(Stage primaryStage) {
@@ -214,7 +209,7 @@ public class PadApplication extends Application {
 
         Button button3 = createButton("REGISTRAR USUARIO", CreateText.getRegistroUsuario(cliente));
         button3.setOnAction(e -> registrarUsuario());
-        Button button4 = createButton("BIENVENIDA", messageService.getMessage(MessageType.BIENVENIDO));
+        Button button4 = createButton("BIENVENIDA", Text.BIENVENIDA);
         Button button5 = createButton("INFO", Text.INFO);
         Button button6 = createButton("RETIRO", Text.RETIRO);
         Button button7 = createButton("RETIRO EXITOSO", Text.RETIRO_EXITOSO);
